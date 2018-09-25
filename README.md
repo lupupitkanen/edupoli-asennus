@@ -55,6 +55,13 @@ Testaa terminalissa kirjautumista:
 gcloud auth application-default login
 ```
 
+## Asenna Atom editori
+```
+sudo apt -y install git gconf2
+wget https://github.com/atom/atom/releases/download/v1.29.0/atom-amd64.deb
+sudo dpkg -i atom-amd64.deb
+```
+
 ## Asenna Terraform
 
 Asenna Ubuntuun Terraform:
