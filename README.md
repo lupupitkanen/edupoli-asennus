@@ -43,11 +43,22 @@ Tarvittaessa päivitä ohjelmistot ja asenna suomen kieli sekä vaihda näppäim
 2. Aja komento `ssh-keygen`
 3. Voit jättää harjoituksessa passphrasen tyhjäksi
 
+## Lisää julkinen SSH-avain GitHubiin
+
+Katso julkisen avaimen sisältö ja kopioi leikepöydälle:
+```
+cat /home/vagrant/.ssh/id_rsa.pub
+```
+Kirjaudu GitHubiin ja lisää avaimesi:
+https://github.com/settings/ssh/new
+
 ## Google Cloud SDK
 
 Asenna Ubuntuun Google Cloud SDK:
 
 https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu
+
+HUOM: Aja komennot yksi kerrallaan ja asenna `curl` ruudulle tulevilla ohjeilla tarvittaessa.
 
 Testaa terminalissa kirjautumista:
 
