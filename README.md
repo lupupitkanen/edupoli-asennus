@@ -30,7 +30,12 @@ vagrant up
 
 Oletuksena tunnus ja salasana molemmat `vagrant`.
 
-Tarvittaessa asenna suomen kieli ja vaihda näppäimistö suomalaiseksi.
+Tarvittaessa päivitä ohjelmistot ja asenna suomen kieli sekä vaihda näppäimistö suomalaiseksi:
+
+- Vasen alakulma: Show applications
+- Software Updater (install updates)
+- Language Support -> Install/Remove Languages -> Finnish (x) -> Apply
+- Settings -> Region & Languages -> Input Sources + Finnish -> Finnish -> Add, English -
 
 ## Luo SSH-avain
 
