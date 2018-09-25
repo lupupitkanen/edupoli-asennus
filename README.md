@@ -19,6 +19,7 @@ https://app.vagrantup.com/peru/boxes/ubuntu-18.04-desktop-amd64
 1. Avaa komentokehto (`cmd`)
 2. Komentokehotteessa aja:
 ```
+c:
 mkdir ubuntu-18.04-desktop-amd64
 cd ubuntu-18.04-desktop-amd64
 vagrant init peru/ubuntu-18.04-desktop-amd64
